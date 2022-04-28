@@ -14,13 +14,9 @@
 /**** Cabeçalho ****/
 
 @keyframes logo {
-  from {
-    color: #0b536f;
-  }
-
   to {
-    color: #043549;
-    font-size: 1.08em;
+    width: 260px;
+    height: 65px;
   }
 }
 
@@ -45,31 +41,90 @@ header {
   align-items: center;
 }
 
-h1 > a {
-  padding-left: 4em;
-  font-size: 1em;
-  color: #0b536f;
+a#logo > img {
+    width: 250px;
+    height: 58px;
+    color: #0b536f;
+    margin-top: 5px;
+    margin-left: 150px
 }
 
-h1 > a:hover {
+a#logo > img:hover {
   animation: logo 2s;
   animation-fill-mode: forwards;
 }
 
 header ul#nav {
   display: flex;
-  padding-right: 4em;
+  margin-right: 8em;
 }
 
 ul#nav li > a {
   display: block;
-  padding: 12px;
+  padding: 15px;
   color: #0b536f;
 }
 
 ul#nav li > a:hover {
   animation: nav 1s;
   animation-fill-mode: forwards;
+}
+
+/**** Home ****/
+
+div#home {
+    background-color: #1b94c4;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    background-image: url(./imagens/background3.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+#bemvindo {
+    float: left;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#bemvindo h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+#bemvindo p {
+    font-size: 1.9em;
+    margin-bottom: 40px;
+}
+
+#bemvindo > a#botao {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #16659E;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#bemvindo>a#botao:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+div#home>img {
+    position: absolute;
+    float: right;
+    width: 868px;
+    height: 600px;
 }
 
 /**** Notícias ****/
