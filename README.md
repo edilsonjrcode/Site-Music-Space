@@ -2,4 +2,4 @@
 <p>Site de notícias e informações sobre o mundo da música.</p>
 <b>*Editando o responsivo (Somente Menu e Home estão responsivos).</b><br>
 <br>
-Link: https://edilsonjrcode.github.io/Projeto-Blog-TecBlog/
+Link: https://edilsonjrcode.github.io/Site-Music-Space/
