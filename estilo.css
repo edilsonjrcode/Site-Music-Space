@@ -73,13 +73,14 @@ ul#nav li > a:hover {
 /**** Home ****/
 
 div#home {
-    background-color: #1b94c4;
+    background-image: url(./imagens/background3.jpg);
+    background-position: center center;
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;
     height: 600px;
     width: 100%;
     align-items: center;
-    background-image: url(./imagens/background3.jpg);
-    background-position: center center;
-    background-size: 100%;
+    
 }
 
 #bemvindo {
@@ -111,13 +112,13 @@ div#home {
     font-weight: bold;
     color: #16659E;
     background-color: #fff;
-    padding: 20px;
+    padding: 15px 20px;
 }
 
 #bemvindo>a#botao:hover {
     color: #fff;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 0.1px solid #fff;
 }
 
 div#home>img {
@@ -133,6 +134,7 @@ section#section-new {
   background-image: url(./imagens/background3.jpg);
   background-position: top;
   background-size: 100%;
+  background-size: 100% 100%;
   text-align: center;
   padding: 20px;
 }
@@ -260,10 +262,11 @@ div#news {
   background-image: url(./imagens/background3.jpg);
   background-position: center center;
   background-size: 100%;
-  background-attachment: scroll;
+  background-size: 100% 100%;
 }
 
 div#news > img {
+  position: absolute;
   float: right;
   width: 450px;
   height: 600px;
@@ -320,14 +323,14 @@ div#news > img {
   border: none;
   font-size: 1.2em;
   font-weight: bold;
-  color: #1b94c4;
-  background-color: #eee;
+  color: #16659E;
+  background-color: #fff;
 }
 
 #newslatter button:hover {
-  color: #ddd;
-  background-color: #1b94c4;
-  border: 0.1px solid #eee;
+  color: #fff;
+  background-color: transparent;
+  border: 0.1px solid #fff;
 }
 
 /**** Fim do New ****/
@@ -358,11 +361,6 @@ section#info {
   margin-top: 10px;
 }
 
-.box-info:hover {
-  animation: box 2s ease;
-  animation-fill-mode: forwards;
-}
-
 /**** Rodapé ****/
 
 footer {
@@ -375,4 +373,3 @@ footer {
   color: #043549;
 }
 
-/**** Responsivo ****/
